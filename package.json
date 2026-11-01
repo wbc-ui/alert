@@ -1,0 +1,51 @@
+{
+  "name": "@wbc-ui/alert",
+  "version": "3.0.0-rc.2",
+  "description": "Floating debug/alert panel for the @wbc-ui3 ecosystem",
+  "license": "MIT",
+  "author": "Wissem Boughamoura",
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "check:dist": "node tools/check_dist_freshness.mjs",
+    "prepublishOnly": "npm run check:dist",
+    "test": "vitest run"
+  },
+  "main": "./dist/alert3.umd.js",
+  "module": "./dist/alert3.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/alert3.es.js",
+      "require": "./dist/alert3.umd.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "peerDependencies": {
+    "@wbc-ui/core": "^3.0.0-rc.1",
+    "@wbc-ui/dataviewer": "^3.0.0-rc.1",
+    "vue": "^3.5.0",
+    "vuetify": "^3.5.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.0",
+    "@vue/test-utils": "^2.4.6",
+    "acorn": "^8.17.0",
+    "acorn-walk": "^8.3.5",
+    "cross-env": "^7.0.3",
+    "vite": "^6.0.0",
+    "vite-plugin-css-injected-by-js": "^3.5.2",
+    "vitest": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wbc-ui/alert.git"
+  },
+  "homepage": "https://github.com/wbc-ui/alert#readme",
+  "bugs": {
+    "url": "https://github.com/wbc-ui/alert/issues"
+  }
+}
