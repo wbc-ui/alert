@@ -1,6 +1,6 @@
 {
   "name": "@wbc-ui/alert",
-  "version": "3.0.0-rc.2",
+  "version": "3.0.0-rc.3",
   "description": "Floating debug/alert panel for the @wbc-ui3 ecosystem",
   "license": "MIT",
   "author": "Wissem Boughamoura",
@@ -25,8 +25,8 @@
     "LICENSE"
   ],
   "peerDependencies": {
-    "@wbc-ui/core": "^3.0.0-rc.1",
-    "@wbc-ui/dataviewer": "^3.0.0-rc.1",
+    "@wbc-ui/core": "^3.0.0-rc.3",
+    "@wbc-ui/dataviewer": "^3.0.0-rc.3",
     "vue": "^3.5.0",
     "vuetify": "^3.5.0"
   },

@@ -139,8 +139,8 @@ pnpm add @wbc-ui/alert @wbc-ui/core @wbc-ui/dataviewer vue@^3.5.0 vuetify@^3.5.0
 
 | Package | Required? | Notes |
 |---|---|---|
-| `@wbc-ui/core` (`^3.0.0-rc.1`) | **required** | WBC rendering engine — needed when the panel is mounted through a `{ comp: 'WBAlert' }` WBC tree; direct `<WBAlert>` use does not import it. |
-| `@wbc-ui/dataviewer` (`^3.0.0-rc.1`) | **required** | Renders each entry in `items`. Without it the panel has nothing to draw with. |
+| `@wbc-ui/core` (`^3.0.0-rc.3`) | **required** | WBC rendering engine — needed when the panel is mounted through a `{ comp: 'WBAlert' }` WBC tree; direct `<WBAlert>` use does not import it. |
+| `@wbc-ui/dataviewer` (`^3.0.0-rc.3`) | **required** | Renders each entry in `items`. Without it the panel has nothing to draw with. |
 | `vue` (`^3.5.0`) | **required** | Vue 3 runtime. |
 | `vuetify` (`^3.5.0`) | **required** | Every rendered element is a Vuetify component. The panel cannot run without it. |
 
